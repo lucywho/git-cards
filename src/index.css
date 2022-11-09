@@ -27,11 +27,12 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px;
-    width: 500px;
-    background-color: lightgray;
-    height: 100px;
+    margin: 5px auto;
     padding: 5px 0;
+    width: fit-content;
+    min-width: 400px;
+    min-height: 100px;
+    background-color: lightgray;
 }
 
 .image {
@@ -49,8 +50,17 @@ img {
 
 form {
     border: thin solid lightgray;
-    padding: 20px;
-    margin: 10px;
+    background: gray;
+    padding: 20px 0;
+    margin: 10px auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: fit-content;
+    min-width: 400px;
+}
+
+input,
+button {
+    font-size: 1rem;
+    padding: 2px 4px;
 }

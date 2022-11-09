@@ -1,14 +1,6 @@
 import React from "react"
-import axios from "axios"
 
 class Card extends React.Component {
-    // async function getUser() {
-    //     axios
-    //         .get(`https://api.github.com/users/lucywho`)
-    //         .then((res) => console.log(res.data))
-    // }
-
-    // getUser()
     render() {
         const profile = this.props
         return (
